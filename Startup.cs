@@ -27,7 +27,7 @@ namespace myMVCApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<g7Context>(options => 
+            services.AddDbContext<G7Context>(options => 
                 options.UseNpgsql(Configuration.GetConnectionString("ZnuServerConnectionString")));
             
         }

@@ -2,15 +2,15 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace myMVCApp
+namespace myMVCApp.Data
 {
-    public partial class g7Context : DbContext
+    public partial class G7Context : DbContext
     {
-        public g7Context()
+        public G7Context()
         {
         }
 
-        public g7Context(DbContextOptions<g7Context> options)
+        public G7Context(DbContextOptions<G7Context> options)
             : base(options)
         {
         }
